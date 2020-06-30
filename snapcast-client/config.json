@@ -1,6 +1,6 @@
 {
   "name": "snapcast-client",
-  "version": "0.15.0-1",
+  "version": "0.20.0",
   "slug": "snapcastclient",
   "description": "Snapcast client for multiroom audio diffusion",
   "startup": "application",
@@ -11,5 +11,5 @@
   "schema": {"host": "str"},
   "ports": {},
   "devices": ["/dev/snd:/dev/snd:rwm"],
-  "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"]
+  "arch": ["armhf", "amd64"]
 }

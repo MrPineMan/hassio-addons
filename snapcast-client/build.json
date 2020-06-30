@@ -1,0 +1,9 @@
+{
+    "build_from": {
+	"armhf" : "mrpineman/armhf-debian-base:stretch",
+	"armv7" : "mrpineman/armv7-debian-base:stretch",
+	"aarch64": "mrpineman/aarch64-debian-base:stretch",
+	"amd64" : "debian:stretch",
+	"i386" : "i386/debian:stretch"
+    }
+}
